@@ -12,12 +12,13 @@ Para hacer un fork hay que ir a la página del repositorio del proyecto del exam
 
 ## Ejercicios grupo A
 
-1. Implementa una clase que permita recuperar, utilizando los métodos de la interfaz DAO, los usuarios de la discoteca.
-2. Implementa en la clase UsuarioUtils.java la función ValidarCalidadPassword para que los passwords tengan un tamaño mínimo de 8 caracteres y al menos 1 dígito. 
-3. Crea dos tests que validen la función que acabas de crear; uno que funcione y otro que no.
-4. Crea con Java Swing una gui llamada Login.java una ventana que tenga:
-	a. Un campo para el email y otro para el password, con sus label correspondientes y usando los componentes de password.
-	b. Un botón Aceptar que tenga la siguiente funcionalidad:
-		* Si se introduce un email que no está en la base de datos de usuarios, lanzar un JDialog con el texto "Usuario no existente"
-		* Si el email existe, pero la contraseña no coincide, se hace visible una etiqueta con un texto que diga: "Error en el password"
-		* Si se introduce 3 veces una contraseña que no coincide con la que tiene el email asociado, se cierra la aplicación automáticamente.
+1. Implementa una clase que permita recuperar, utilizando los métodos de la interfaz DAO, los usuarios de la discoteca. Realiza un commit con el texto "Implementación DAO".
+2. Implementa en la clase UsuarioUtils.java la función ValidarCalidadPassword para que los passwords tengan un tamaño mínimo de 8 caracteres y al menos 1 dígito. Realiza un commit con el texto "Funcion ValidarCalidadPassword". 
+3. Crea dos tests que validen la función que acabas de crear; uno con un password con formato válido y otro que no.Realiza un commit con el texto "Test de la función"
+4. Crea con Java Swing una gui llamada Login.java una ventana que tenga:  
+ 4.1. Un campo para el email y otro para el password, con sus label correspondientes y usando los componentes de password.  
+ 4.2. Un botón Aceptar que tenga la siguiente funcionalidad:  
+ * Si se introduce un email que no está en la base de datos de usuarios, lanzar un JDialog con el texto "Usuario no existente"
+ * Si el email existe, pero la contraseña no coincide, se hace visible una etiqueta con un texto que diga: "Error en el password"
+ * Si se introduce 3 veces una contraseña que no coincide con la que tiene el email asociado, se cierra la aplicación automáticamente.
+ Realizar el commit final "Pantalla de login"
